@@ -1,0 +1,136 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :app:kaptDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/navigation/AppNavigation.kt:14:32 Cannot access 'val repository: AppRepository': it is private in 'com/example/munimji/ui/viewmodel/AppViewModel'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/navigation/AppNavigation.kt:53:13 Unresolved reference 'ExcelImportScreen'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/navigation/AppNavigation.kt:56:13 Overload resolution ambiguity between candidates:
+fun SalesAnalyticsScreen(navController: NavController, repository: AppRepository): Unit
+fun SalesAnalyticsScreen(navController: NavController, repository: AppRepository): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:32:1 Conflicting overloads:
+fun SalesAnalyticsScreen(navController: NavController, repository: AppRepository): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:55:9 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:62:22 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:62:40 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:99:47 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:115:47 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/AnalyticsScreen.kt:182:31 Unresolved reference 'TrendingUp'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:29:1 Conflicting overloads:
+fun ExcelItemImportScreen(navController: NavController, repository: AppRepository): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:91:9 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:98:22 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:98:40 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:113:35 Unresolved reference 'FileUpload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelImportScreen.kt:129:43 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:26:37 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:30:1 Conflicting overloads:
+fun ExcelItemImportScreen(navController: NavController, repository: AppRepository): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:48:17 Try catch is not supported around composable function invocations.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:50:67 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:102:9 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:109:22 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:109:40 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:110:34 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:126:34 Unresolved reference 'CloudUpload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:129:28 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:158:75 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:168:43 Unresolved reference 'FileUpload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:220:32 Argument type mismatch: actual type is 'kotlin.Unit', but 'androidx.compose.ui.Modifier' was expected.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:222:26 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun RowScope.gap(size: <ERROR TYPE REF: Symbol not found for Dp>): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:225:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:237:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:252:49 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:252:79 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/ExcelItemImportScreen.kt:296:32 Unresolved reference 'Dp'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:12:47 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:13:47 Unresolved reference 'FileUpload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:24:34 Unresolved reference 'ExcelImporter'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:39:25 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:39:34 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:39:36 Unresolved reference 'ExcelImporter'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:47:47 Unresolved reference 'importInventoryFromExcel'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:48:37 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:86:36 Unresolved reference 'FileUpload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:95:58 Unresolved reference 'exportInventoryToExcel'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:97:52 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:97:56 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/InventoryManagementScreen.kt:121:36 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/PaymentReceiptScreen.kt:197:21 None of the following candidates is applicable:
+fun OutlinedTextField(value: TextFieldValue, onValueChange: (TextFieldValue) -> Unit, modifier: Modifier = ..., enabled: Boolean = ..., readOnly: Boolean = ..., textStyle: TextStyle = ..., label: @Composable() ComposableFunction0<Unit>? = ..., placeholder: @Composable() ComposableFunction0<Unit>? = ..., leadingIcon: @Composable() ComposableFunction0<Unit>? = ..., trailingIcon: @Composable() ComposableFunction0<Unit>? = ..., prefix: @Composable() ComposableFunction0<Unit>? = ..., suffix: @Composable() ComposableFunction0<Unit>? = ..., supportingText: @Composable() ComposableFunction0<Unit>? = ..., isError: Boolean = ..., visualTransformation: VisualTransformation = ..., keyboardOptions: KeyboardOptions = ..., keyboardActions: KeyboardActions = ..., singleLine: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., interactionSource: MutableInteractionSource? = ..., shape: Shape = ..., colors: TextFieldColors = ...): Unit
+fun OutlinedTextField(value: String, onValueChange: (String) -> Unit, modifier: Modifier = ..., enabled: Boolean = ..., readOnly: Boolean = ..., textStyle: TextStyle = ..., label: @Composable() ComposableFunction0<Unit>? = ..., placeholder: @Composable() ComposableFunction0<Unit>? = ..., leadingIcon: @Composable() ComposableFunction0<Unit>? = ..., trailingIcon: @Composable() ComposableFunction0<Unit>? = ..., prefix: @Composable() ComposableFunction0<Unit>? = ..., suffix: @Composable() ComposableFunction0<Unit>? = ..., supportingText: @Composable() ComposableFunction0<Unit>? = ..., isError: Boolean = ..., visualTransformation: VisualTransformation = ..., keyboardOptions: KeyboardOptions = ..., keyboardActions: KeyboardActions = ..., singleLine: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., interactionSource: MutableInteractionSource? = ..., shape: Shape = ..., colors: TextFieldColors = ...): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/PaymentReceiptScreen.kt:199:52 Unresolved reference 'it'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/PaymentReceiptScreen.kt:200:35 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/PaymentReceiptScreen.kt:201:41 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:24:37 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:25:37 Unresolved reference 'SECONDARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:31:1 Conflicting overloads:
+fun SalesAnalyticsScreen(navController: NavController, repository: AppRepository): Unit
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:45:39 Unresolved reference 'getAllTransactions'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:67:9 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:74:22 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:74:40 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:75:34 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:92:41 Unresolved reference 'TrendingUp'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:101:41 Unresolved reference 'Receipt'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:110:41 Unresolved reference 'AttachMoney'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:119:41 Unresolved reference 'Receipt'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:151:83 Unresolved reference 'PRIMARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:154:47 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:173:83 Unresolved reference 'SECONDARY_COLOR'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:176:47 Unresolved reference 'FileDownload'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:244:71 Unresolved reference 'TrendingUp'.
+e: file:///D:/MunimJi/app/src/main/java/com/example/munimji/ui/screens/SalesAnalyticsScreen.kt:269:13 None of the following candidates is applicable:
+fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = ..., tint: Color = ...): Unit
+fun Icon(painter: Painter, tint: ColorProducer?, contentDescription: String?, modifier: Modifier = ...): Unit
+fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., tint: Color = ...): Unit
+fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: Modifier = ..., tint: Color = ...): Unit
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+30 actionable tasks: 1 executed, 29 up-to-date
